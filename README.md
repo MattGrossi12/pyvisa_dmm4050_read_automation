@@ -53,11 +53,11 @@ Imagens do teste:
 
 <div align="center">
 
-| **Tabela de caracteristicas técnicas dos LEDs** |
+| **Fluxo de simulação** |
 | :---: |
 | **Defini a escala manualmente no múltimetro como corrente DC apenas para ficar diferente do que queremos** |
 ![Defini a escala manualmente no múltimetro como corrente DC apenas para ficar diferente do que queremos](https://github.com/MattGrossi12/pyvisa_dmm4050_read_automation/blob/main/images/img1.png)
-| **Chamos o script python** |
+| **Chamamos o script python** |
 ![Chamos o script python](https://github.com/MattGrossi12/pyvisa_dmm4050_read_automation/blob/main/images/img2.png)
 | **O múltimetro então chaveia automaticamente para o modo tensão DC** |
 ![O múltimetro então chaveia automaticamente para o modo tensão DC](https://github.com/MattGrossi12/pyvisa_dmm4050_read_automation/blob/main/images/img3.png)
