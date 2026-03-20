@@ -11,14 +11,14 @@ ping -c n_de_pings ip_do dispositivo
 ```
 Nosso aparelho está com o ip reservado de 10.128.15.200, portanto:
 
-```
+```bash
 ping -c 5 10.128.15.200
 ```
 
 Com isso obtivemos esta amostra:
 
 
-```
+```bash
 (pyvisa_venv) matheus@matheus-Vivobook-Go-E1504FA-E1504FA:~/pyvisa_dmm4050_read_automation$ ping -c 5 10.128.15.200
 PING 10.128.15.200 (10.128.15.200) 56(84) bytes of data.
 64 bytes from 10.128.15.200: icmp_seq=1 ttl=64 time=4.41 ms
@@ -32,7 +32,7 @@ Portanto a conexão lan está funcionando!
 
 Afim de confirmar se o dispositivo apontado é o nosso iremos rodar um teste por telnet:
 
-```
+```bash
 matheus@matheus-Vivobook-Go-E1504FA-E1504FA:~$ telnet 10.128.15.200 3490
 Trying 10.128.15.200...
 Connected to 10.128.15.200.
@@ -43,6 +43,15 @@ TEKTRONIX,DMM4050,2633206,08/02/10-11:53
 
 De fato o dispositivo encontrado é o nosso multimetro de bancada.
 
+---
+Para usar o script basta chamar:
+```bash
+python3 dmm.py
+```
+
+Imagens do teste:
+
+Link do vídeo:
 
 
 A implementação que faremos abaixo será para o DMM-4050 e teve como base o vídeo abaixo:
